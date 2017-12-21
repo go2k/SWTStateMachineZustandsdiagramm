@@ -43,6 +43,7 @@ class Controller implements Initializable {
             ausgabe();
         });
 
+
         buttonB.setOnAction(event -> {
             switch (zustand) {
                 case ROT:
